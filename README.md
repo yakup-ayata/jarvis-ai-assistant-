@@ -1,474 +1,336 @@
-<div align="center">
-
 # 🤖 JARVIS AI Assistant
 
-### *Advanced Autonomous AI System with Full Computer Control*
+> Iron Man'deki JARVIS'i gerçek yapmaya çalışan bir öğrenci projesi. AI ile konuşabilir, komut verebilir ve bilgisayarınızı kontrol edebilirsiniz.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Node.js 16+](https://img.shields.io/badge/node-%3E%3D16-brightgreen.svg)](https://nodejs.org/)
-[![React 18](https://img.shields.io/badge/react-18-61dafb.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-React-61dafb.svg)](https://reactjs.org/)
 
-*An intelligent AI assistant that understands commands, creates plans, and executes them autonomously with real-time feedback*
-
-[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Architecture](#-architecture) • [Contributing](#-contributing)
-
-</div>
+**⚠️ Not:** Bu proje bir öğrenme projesidir. Production kullanımı için optimize edilmemiştir, bazı şeyler hala WIP (work in progress) durumunda.
 
 ---
 
-## 🌟 Overview
+## � Ne Yapıyor?
 
-JARVIS is a cutting-edge autonomous AI system that brings Iron Man's AI assistant to life. Built with modern technologies and enterprise-grade architecture, it provides seamless computer control, intelligent conversation, and autonomous task execution.
+JARVIS ile konuşabilir, sorular sorabilir ve bilgisayarınızda komutlar çalıştırabilirsiniz. Iron Man filmlerinden ilham alınarak yapıldı!
 
-### What Makes JARVIS Special?
+**Yapabilecekleriniz:**
+- 💬 Sohbet edip AI'dan fikir almak
+- 🔍 Web'de araştırma yapıp özet almak  
+- ⚡ Bilgisayarınızı kontrol etmek (uygulama aç, müzik çal, vs.)
+- � PDF/Word dökümanlarınızı okuyup soru sorması
+- 🗣️ Sesli yanıt alması (Text-to-Speech)
 
-- 🧠 **Multi-Agent Architecture** - Specialized agents working together for complex tasks
-- 🎯 **Autonomous Execution** - Plans and executes tasks without constant supervision
-- 🔒 **Enterprise Security** - Built-in security filters, audit logging, and sandbox execution
-- 💾 **Advanced Memory System** - Long-term memory with RAG (Retrieval-Augmented Generation)
-- 🎨 **Modern UI** - Sleek React interface with real-time WebSocket communication
-- 🔊 **Voice Integration** - Text-to-Speech with multi-language support
-- 📚 **Document Intelligence** - PDF, DOCX parsing with semantic search
-- 🛡️ **Self-Healing** - Automatic error detection and recovery
+### Şu an Çalışan Özellikler
 
----
+✅ Modern web arayüzü (React + TypeScript)  
+✅ AI chat (OpenAI veya Gemini)  
+✅ Web araması ve özet çıkarma  
+✅ macOS sistem kontrolü  
+✅ Gerçek zamanlı iletişim (WebSocket)  
+✅ Sesli yanıt (TTS)  
+✅ Doküman okuma (PDF, DOCX)
 
-## ✨ Features
+### Henüz Beta Olan Şeyler
 
-### 🎯 Core Capabilities
-
-#### 💭 Opinion Mode
-Ask philosophical questions and get thoughtful AI perspectives:
-```
-"What do you think about artificial intelligence?"
-"What's the best programming language and why?"
-```
-
-#### 📚 Information Mode
-Research any topic with web-powered AI synthesis:
-```
-"Tell me about Tesla's latest models"
-"Explain quantum computing"
-"What are the newest features in Python 3.12?"
-```
-
-#### ⚡ Command Mode
-Full system control and automation:
-```
-"Open Instagram"
-"Set volume to 50%"
-"Search for BMW and open the first website"
-"Play Bohemian Rhapsody on Spotify"
-"Take a screenshot"
-```
-
-### 🚀 Advanced Features
-
-- **🤖 Multi-Agent Coding** - Autonomous code generation and testing
-- **🏗️ Autonomous Architect** - System design and architecture planning
-- **📊 Dynamic Prompt Composition** - Context-aware prompt optimization
-- **🔍 RAG Engine** - Semantic search over your documents
-- **🎙️ Wake Word Detection** - Voice-activated commands
-- **🌐 Web Automation** - Browser control with Playwright
-- **📝 Reflection System** - Self-improvement through analysis
-- **⚠️ Risk Assessment** - Safety-first command execution
-- **🔐 Audit Logging** - Complete activity tracking
+⚠️ Çoklu-agent sistemi (bazen hata verebilir)  
+⚠️ Uzun süreli hafıza (deneme aşamasında)  
+⚠️ Otonom görev planlama  
+⚠️ Sesli komut (henüz yok ama planlandı)
 
 ---
 
-## 🚀 Quick Start
+## 🎮 Nasıl Kullanılır?
 
-### Prerequisites
+JARVIS'e üç farklı şekilde komut verebilirsiniz:
 
-- **Python 3.8+** - Core backend runtime
-- **Node.js 16+** - Frontend and tools
-- **macOS** - Primary platform (Linux/Windows support planned)
-- **API Key** - OpenAI or Google Gemini
+### 💭 Fikir Sor (Opinion Mode)
+Düşünce gerektiren sorular sorun:
+```
+"Yapay zeka hakkında ne düşünüyorsun?"
+"En iyi programlama dili hangisi sence?"
+```
 
-### Installation
+### 📚 Bilgi İste (Information Mode)
+Web'de araştırıp AI özeti alın:
+```
+"Tesla'nın son modelleri neler?"
+"Python nedir açıkla"
+"Quantum computing nasıl çalışır?"
+```
 
-1. **Clone the Repository**
+### ⚡ Komut Ver (Command Mode)
+Bilgisayarınızı kontrol edin:
+```
+"Instagram'ı aç"
+"Ses seviyesini %50 yap"
+"BMW ara ve ilk siteyi aç"
+"Bohemian Rhapsody çal"
+```
+
+### � Denemek İstediklerim (Experimental)
+
+Bunlar çalışıyor ama bazen hata verebilir:
+- 🤖 Kod yazma ve test etme
+- �️ Proje mimarisi planlama
+- � Akıllı prompt oluşturma
+- 🔍 Dokümanlarınızda anlam bazlı arama
+
+---
+
+## 🚀 Kurulum (5 Dakika)
+
+### İhtiyaçlar
+
+- Python 3.8 veya üstü
+- Node.js 16 veya üstü  
+- macOS (şimdilik sadece Mac destekleniyor)
+- OpenAI veya Gemini API anahtarı
+
+### Adım Adım Kurulum
+
+**1. Projeyi İndir**
 ```bash
 git clone https://github.com/yakup-ayata/jarvis-ai-assistant-.git
-cd jarvis-ai-assistant-
+cd jarvis-ai-assistant-/jarvis_v2
 ```
 
-2. **Configure API Keys**
+**2. API Anahtarını Ekle**
+
+`.env` dosyası oluştur ve API anahtarını ekle:
 ```bash
-cd jarvis_v2
 cp .env.example .env
-# Edit .env and add your API key
+nano .env  # veya favori editörünüzle açın
 ```
 
-`.env` example:
+İçine şunu yaz (birini seç):
 ```bash
-# Option 1: OpenAI (Recommended)
-OPENAI_API_KEY=sk-proj-your-key-here
+# OpenAI kullanacaksan (önerilen)
+OPENAI_API_KEY=sk-proj-buraya-anahtarini-yaz
 
-# Option 2: Google Gemini
-GEMINI_API_KEY=your-gemini-key-here
+# Gemini kullanacaksan
+GEMINI_API_KEY=buraya-anahtarini-yaz
 ```
 
-3. **Run Setup Script**
+**3. Her Şeyi Kur**
 ```bash
 bash setup_enhanced.sh
 ```
 
-This will:
-- ✅ Create Python virtual environment
-- ✅ Install all Python dependencies
-- ✅ Install Node.js dependencies
-- ✅ Setup RAG engine packages
-- ✅ Install Playwright browsers
-- ✅ Verify all components
+Bu script şunları yapar:
+- Python virtual environment oluşturur
+- Tüm Python paketlerini yükler
+- Frontend bağımlılıklarını yükler
+- Her şeyin çalışır olduğunu kontrol eder
 
-4. **Start JARVIS**
+**4. Başlat!**
 ```bash
 bash start.sh
 ```
 
-5. **Access the Interface**
-- 🎨 **Frontend**: http://localhost:5174
-- 🧠 **Backend API**: http://localhost:8000
-- 🔌 **WebSocket**: ws://localhost:8001
+**5. Tarayıcıda Aç**
+
+http://localhost:5174 adresine git ve kullanmaya başla!
+
+### Hızlı Test
+
+Açıldıktan sonra şunları dene:
+- "Merhaba!" yaz → AI cevap vermeli
+- "Python nedir?" sor → Web araştırıp özet vermeli
+- "Spotify'ı aç" de → Spotify açılmalı (varsa)
 
 ---
 
-## 📚 Documentation
+## 📚 Daha Fazla Bilgi
 
-### Core Documentation
-- [📖 Quick Start Guide](jarvis_v2/QUICK_START.md) - Get started in 5 minutes
-- [🏗️ Architecture Overview](jarvis_v2/SYSTEM_ARCHITECTURE_ANALYSIS.md) - System design
-- [✅ Feature Checklist](jarvis_v2/FEATURE_CHECKLIST.md) - Complete feature list
-- [🗺️ Roadmap](jarvis_v2/ROADMAP.md) - Future development plans
-
-### Technical Guides
-- [🛠️ Setup Guide](jarvis_v2/setup_enhanced.sh) - Automated setup
-- [🔒 Security Guide](jarvis_v2/SECURITY_FIXES_COMPLETE.md) - Security features
-- [🧪 Testing Guide](jarvis_v2/tests/README.md) - Run tests
-- [🎨 Frontend Guide](jarvis_v2/frontend/NEWUI_README.md) - UI development
+Projeyi daha iyi anlamak için:
+- [QUICK_START.md](jarvis_v2/QUICK_START.md) - Hızlı başlangıç
+- [ROADMAP.md](jarvis_v2/ROADMAP.md) - Gelecek planları
+- [SYSTEM_STATUS.md](jarvis_v2/SYSTEM_STATUS.md) - Şu anki durum
 
 ---
 
-## 🏗️ Architecture
+## 🛠️ Teknolojiler
 
-### System Components
+Projede kullanılan ana teknolojiler:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     JARVIS AI System                        │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌──────────────┐      ┌──────────────┐      ┌──────────┐ │
-│  │   Frontend   │◄────►│  WebSocket   │◄────►│ Backend  │ │
-│  │  React + TS  │      │    Server    │      │  Python  │ │
-│  └──────────────┘      └──────────────┘      └──────────┘ │
-│                                                      │      │
-│  ┌─────────────────────────────────────────────────┘      │
-│  │                                                          │
-│  ├─► 🧠 Brain Service (LLM Integration)                   │
-│  ├─► 💾 Memory System (RAG + Vector Store)                │
-│  ├─► 🤖 Multi-Agent Coder                                 │
-│  ├─► 🏗️ Autonomous Architect                             │
-│  ├─► 🔒 Security Filter                                   │
-│  ├─► ⚠️ Risk Engine                                       │
-│  ├─► 📝 Reflection System                                 │
-│  ├─► 🔊 TTS Service                                       │
-│  └─► 🛠️ Tool Server (Node.js)                            │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+**Backend:**
+- Python 3.8+ (ana dil)
+- Flask (API server)
+- WebSocket (gerçek zamanlı iletişim)
+- OpenAI GPT-4o-mini / Gemini 2.0 Flash (AI)
+- FAISS (vektör arama için)
+- Sentence Transformers (embedding'ler için)
 
-### Technology Stack
+**Frontend:**
+- React 18 + TypeScript
+- Tailwind CSS (stil)
+- Zustand (state yönetimi)
+- Vite (build tool)
 
-#### Backend
-- **Runtime**: Python 3.8+
-- **Framework**: Flask + WebSocket
-- **AI/ML**: 
-  - OpenAI GPT-4o-mini / Google Gemini 2.0 Flash
-  - Sentence Transformers (Embeddings)
-  - FAISS (Vector Search)
-- **Data Processing**: 
-  - PyPDF2 (PDF parsing)
-  - python-docx (Word documents)
-  - BeautifulSoup4 (Web scraping)
-
-#### Frontend
-- **Framework**: React 18 + TypeScript
-- **Styling**: Tailwind CSS
-- **State Management**: Zustand
-- **Build Tool**: Vite
-- **Real-time**: WebSocket API
-
-#### Tools & Automation
-- **Browser Automation**: Playwright
-- **System Control**: AppleScript (macOS)
-- **Package Management**: pip, npm
+**Diğer:**
+- Playwright (browser otomasyonu)
+- AppleScript (macOS kontrolü)
 
 ---
 
-## 📂 Project Structure
+## 📂 Proje Yapısı
 
 ```
-jarvis-ai-assistant-/
-├── jarvis_v2/                    # Main application
-│   ├── api/                      # API Layer
-│   │   ├── gui_bridge.py        # GUI communication
-│   │   └── websocket_server_enhanced.py
-│   ├── core/                     # Core AI Components
-│   │   ├── brain_service.py     # LLM integration
-│   │   ├── memory_system.py     # Long-term memory
-│   │   ├── multi_agent_coder.py # Code generation
-│   │   ├── autonomous_architect.py
-│   │   ├── rag_engine.py        # RAG implementation
-│   │   ├── tts_service.py       # Text-to-Speech
-│   │   ├── security_filter.py   # Security layer
-│   │   ├── risk_engine.py       # Risk assessment
-│   │   └── ...                  # 20+ modules
-│   ├── frontend/                 # React UI
-│   │   ├── src/
-│   │   │   ├── components/      # React components
-│   │   │   ├── hooks/           # Custom hooks
-│   │   │   ├── services/        # Business logic
-│   │   │   └── styles/          # CSS/Tailwind
-│   │   └── package.json
-│   ├── tools/                    # Node.js Tools
-│   │   └── server.js            # Tool execution server
-│   ├── tests/                    # Test Suite
-│   ├── data/                     # User data
-│   │   ├── memory/              # Memory storage
-│   │   └── learning/            # Learning data
-│   ├── .env.example             # Environment template
-│   ├── start.sh                 # Start script
-│   ├── stop.sh                  # Stop script
-│   └── setup_enhanced.sh        # Setup automation
-└── README.md                     # This file
+jarvis_v2/
+├── core/              # AI beyni burda
+│   ├── brain_service.py
+│   ├── memory_system.py
+│   ├── rag_engine.py
+│   └── ...
+├── api/               # Backend serverlar
+│   ├── websocket_server_enhanced.py
+│   └── gui_bridge.py
+├── frontend/          # React UI
+│   └── src/
+│       ├── components/
+│       ├── hooks/
+│       └── services/
+├── tools/             # Node.js tool server
+├── tests/             # Testler
+├── .env               # API anahtarların (GIT'e atma!)
+├── start.sh           # Başlatma scripti
+└── stop.sh            # Durdurma scripti
 ```
 
 ---
 
-## 🎮 Usage Examples
+## 🐛 Sorun mu Var?
 
-### Web Interface
-
-1. Open http://localhost:5174
-2. Type your command or question
-3. Watch JARVIS think and execute
-4. Get real-time feedback
-
-### API Usage
-
-```python
-import requests
-
-# Send a command
-response = requests.post(
-    "http://localhost:8000/api/v1/chat",
-    json={
-        "message": "Open Spotify and play some jazz",
-        "mode": "command"
-    }
-)
-
-result = response.json()
-print(result['response'])
-```
-
-### WebSocket Integration
-
-```javascript
-const ws = new WebSocket('ws://localhost:8001/ws');
-
-ws.onmessage = (event) => {
-  const data = JSON.parse(event.data);
-  console.log('JARVIS:', data.message);
-};
-
-ws.send(JSON.stringify({
-  type: 'command',
-  message: 'What is the weather like?'
-}));
-```
-
----
-
-## 🔧 Configuration
-
-### Environment Variables
-
+### "Command not found" hatası
 ```bash
-# Required
-OPENAI_API_KEY=sk-...          # OpenAI API key
-GEMINI_API_KEY=...             # Google Gemini API key (alternative)
-
-# Optional
-PORT=8000                       # Backend port
-WS_PORT=8001                    # WebSocket port
-FRONTEND_PORT=5174              # Frontend port
-LOG_LEVEL=INFO                  # Logging level
-ENABLE_TTS=true                 # Text-to-Speech
-TTS_VOICE=Daniel                # TTS voice name
+# Script'lere çalıştırma izni ver
+chmod +x start.sh stop.sh setup_enhanced.sh
 ```
 
----
-
-## 🛠️ Management Commands
-
+### "Port already in use"
 ```bash
-# Start all services
-bash start.sh
-
-# Stop all services
-bash stop.sh
-
-# Check status
-bash status.sh
-
-# View logs
-tail -f jarvis_v2/logs/backend.log
-tail -f jarvis_v2/logs/websocket.log
-
-# Run tests
-cd jarvis_v2/tests
-bash run_bugfix_tests.sh
-```
-
----
-
-## 🐛 Troubleshooting
-
-### Port Already in Use
-```bash
-# Kill processes on ports
+# Port'ları temizle
 lsof -ti:8000 | xargs kill -9
-lsof -ti:8001 | xargs kill -9
+lsof -ti:8001 | xargs kill -9  
 lsof -ti:5174 | xargs kill -9
 ```
 
-### API Key Issues
-- Verify `.env` file exists and contains valid API key
-- Check API key format (OpenAI starts with `sk-proj-`)
-- Ensure no extra spaces or quotes
+### "API key not found"
+- `.env` dosyasının `jarvis_v2` klasöründe olduğundan emin ol
+- API anahtarının doğru formatta olduğunu kontrol et
+- Boşluk veya tırnak olmadan yaz
 
-### Module Not Found
+### "Module not found" hatası
 ```bash
-# Reinstall dependencies
+# Paketleri tekrar yükle
 cd jarvis_v2
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Frontend Build Errors
-```bash
-cd jarvis_v2/frontend
-rm -rf node_modules package-lock.json
-npm install
-npm run dev
-```
+Başka sorun mu var? [Issue aç](https://github.com/yakup-ayata/jarvis-ai-assistant-/issues) veya kod içindeki yorumlara bak!
 
 ---
 
-## 🗺️ Roadmap
+## 🎯 Gelecek Planları
 
-### ✅ Completed (v2.0)
-- [x] Multi-agent architecture
-- [x] RAG engine with document processing
-- [x] WebSocket real-time communication
-- [x] Security and risk assessment
-- [x] Text-to-Speech integration
-- [x] Modern React UI
-- [x] Comprehensive testing suite
+### ✅ Şu An Çalışıyor
+- [x] Web arayüzü
+- [x] AI chat (OpenAI/Gemini)
+- [x] Web araması
+- [x] macOS sistem kontrolü
+- [x] Sesli yanıt (TTS)
+- [x] Doküman okuma
 
-### 🚧 In Progress
-- [ ] Multi-platform support (Windows, Linux)
-- [ ] Voice input (Speech-to-Text)
-- [ ] Plugin system
-- [ ] Docker containerization
+### 🚧 Üzerinde Çalıştığım
+- [ ] Sesli komut (wake word: "Hey Jarvis")
+- [ ] Windows ve Linux desteği
+- [ ] Daha iyi hafıza sistemi
+- [ ] Plugin sistemi
 
-### 🔮 Future Plans
-- [ ] Multi-user support
-- [ ] Cloud deployment
-- [ ] Mobile app (React Native)
-- [ ] Advanced personalization
-- [ ] Integration marketplace
+### � Yapmak İstediklerim
+- [ ] Mobil uygulama
+- [ ] Bulut sürümü
+- [ ] Çoklu kullanıcı desteği
+- [ ] Daha akıllı öğrenme
 
 ---
 
-## 🤝 Contributing
+## 🤝 Katkıda Bulunmak İster misin?
 
-Contributions are welcome! Please follow these steps:
+Pull request'ler ve öneriler her zaman hoş gelir! Bu benim bir öğrenci projesi olduğu için:
+- Kod kalitesi mükemmel olmayabilir
+- Bazı şeyler hala eksik
+- Daha iyi yöntemler biliyorsan paylaş!
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+**Nasıl katkıda bulunabilirsin:**
+1. Repo'yu fork'la
+2. Yeni bir branch oluştur (`git checkout -b yeni-ozellik`)
+3. Değişikliklerini yap
+4. Commit'le (`git commit -m 'Harika özellik eklendi'`)
+5. Push'la (`git push origin yeni-ozellik`)
+6. Pull request aç
 
-### Development Setup
-
-```bash
-# Clone your fork
-git clone https://github.com/your-username/jarvis-ai-assistant-.git
-cd jarvis-ai-assistant-/jarvis_v2
-
-# Install development dependencies
-pip install -r requirements.txt
-pip install pytest black flake8
-
-# Run tests
-pytest tests/
-
-# Format code
-black .
-```
+Veya sadece issue açıp fikrini paylaş!
 
 ---
 
-## 📄 License
+## 🎓 Öğrendiklerim
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Bu projeyi yaparken öğrendiğim şeyler:
+- Multi-agent sistemler nasıl çalışır
+- RAG (Retrieval-Augmented Generation) nasıl implement edilir
+- WebSocket ile gerçek zamanlı iletişim
+- React + TypeScript ile modern UI
+- Python ile sistem kontrolü
+- AI ile doğal dil işleme
+
+Bu projeyi yapmakta bana yardımcı olan tüm açık kaynak projelere ve AI modellerine teşekkürler!
+
+---
+
+## ⚖️ Lisans
+
+MIT License - istediğin gibi kullanabilirsin!
 
 ```
 MIT License
 
 Copyright (c) 2024 Yakup Ayata
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Kısaca: İstediğin gibi kullan, değiştir, paylaş. Sadece copyright'ı değiştirme.
+Detaylar için LICENSE dosyasına bak.
 ```
 
 ---
 
-## 🙏 Acknowledgments
-
-- Inspired by **Iron Man's JARVIS**
-- Built with ❤️ by [Yakup Ayata](https://github.com/yakup-ayata)
-- Special thanks to the open-source community
-- Powered by OpenAI and Google Gemini
-
----
-
-## 📧 Contact
+## � İletişim
 
 - **GitHub**: [@yakup-ayata](https://github.com/yakup-ayata)
 - **Repository**: [jarvis-ai-assistant-](https://github.com/yakup-ayata/jarvis-ai-assistant-)
-- **Issues**: [Report a Bug](https://github.com/yakup-ayata/jarvis-ai-assistant-/issues)
+- **Bug/Öneri**: [Issue Aç](https://github.com/yakup-ayata/jarvis-ai-assistant-/issues)
+
+Sorular, öneriler veya sadece "merhaba" demek için issue açabilirsin!
+
+---
+
+## 💡 Son Notlar
+
+Bu proje Iron Man filmlerinden esinlenerek, AI ve otomasyon öğrenmek için yapıldı. 
+
+**Uyarı:** Production ortamında kullanmadan önce güvenlik testlerinden geçirmeyi unutma! API anahtarlarını kimseyle paylaşma.
+
+Keyifli kodlamalar! 🚀
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repository if you find it helpful!
+### ⭐ Beğendiysen yıldız vermeyi unutma!
 
-**Made with 🤖 and ❤️**
+**Iron Man hayranlarına ve AI severlere ithaf olunur** 🤖❤️
+
+*"Sometimes you gotta run before you can walk." - Tony Stark*
 
 </div>
