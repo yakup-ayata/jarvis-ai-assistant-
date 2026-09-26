@@ -1,0 +1,80 @@
+# JARVIS V2 - Enterprise Edition Requirements
+# All 10 missing features included
+# Requires: Python 3.11+
+
+# Core
+aiohttp
+
+# AI/ML
+google-generativeai
+openai
+sentence-transformers
+transformers
+torch
+
+# Web Framework
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+
+# Frontend (React)
+# Install separately: cd frontend && npm install
+
+# Database & Cache
+sqlalchemy
+psycopg2-binary
+redis
+alembic
+
+# Document Processing
+PyPDF2
+python-docx
+beautifulsoup4
+lxml
+
+# Voice Processing
+SpeechRecognition
+pyaudio
+pyttsx3
+vosk
+noisereduce
+librosa
+soundfile
+
+# Code Execution
+jupyter
+ipython
+matplotlib
+numpy
+pandas
+
+# Security & Auth
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Monitoring & Analytics
+prometheus-client
+python-json-logger
+
+# Integrations
+slack-sdk
+discord.py
+python-telegram-bot
+
+# Utilities
+python-dotenv
+pydantic
+requests
+httpx
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Development
+black
+flake8
+mypy

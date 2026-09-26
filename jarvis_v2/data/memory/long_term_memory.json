@@ -1,0 +1,29 @@
+[
+  {
+    "id": "query_1772409323172",
+    "timestamp": 1772409323.1725771,
+    "type": "query",
+    "content": "User asked about Python",
+    "metadata": {},
+    "embedding": null,
+    "importance": 0.7
+  },
+  {
+    "id": "action_1772409323172",
+    "timestamp": 1772409323.17258,
+    "type": "action",
+    "content": "Provided Python tutorial",
+    "metadata": {},
+    "embedding": null,
+    "importance": 0.8
+  },
+  {
+    "id": "event_1772409323172",
+    "timestamp": 1772409323.1725812,
+    "type": "event",
+    "content": "System CPU usage high",
+    "metadata": {},
+    "embedding": null,
+    "importance": 0.9
+  }
+]

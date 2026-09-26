@@ -1,0 +1,262 @@
+/* Iron Man JARVIS Theme - Authentic Design */
+
+:root {
+  --jarvis-blue: #00d4ff;
+  --jarvis-cyan: #00ffff;
+  --jarvis-dark: rgba(0, 10, 20, 0.95);
+  --jarvis-panel: rgba(0, 20, 40, 0.3);
+  --jarvis-border: rgba(0, 212, 255, 0.3);
+  --jarvis-glow: 0 0 20px rgba(0, 212, 255, 0.5);
+}
+
+/* Glass Panel Effect */
+.glass-panel {
+  background: rgba(0, 20, 40, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  box-shadow: 
+    0 0 20px rgba(0, 212, 255, 0.1),
+    inset 0 0 20px rgba(0, 212, 255, 0.05);
+}
+
+/* Minimal Line Decorations */
+.line-decoration {
+  position: absolute;
+  background: linear-gradient(90deg, transparent, var(--jarvis-blue), transparent);
+  height: 1px;
+  opacity: 0.5;
+}
+
+/* Subtle Corner Accent */
+.corner-accent {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--jarvis-blue);
+  opacity: 0.4;
+}
+
+.corner-accent.tl {
+  top: 10px;
+  left: 10px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.corner-accent.tr {
+  top: 10px;
+  right: 10px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.corner-accent.bl {
+  bottom: 10px;
+  left: 10px;
+  border-right: none;
+  border-top: none;
+}
+
+.corner-accent.br {
+  bottom: 10px;
+  right: 10px;
+  border-left: none;
+  border-top: none;
+}
+
+/* Circular Progress */
+.circular-progress {
+  transform: rotate(-90deg);
+}
+
+.circular-progress circle {
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+/* Subtle Scan Line */
+.scan-line {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(0, 212, 255, 0.3) 50%, 
+    transparent 100%
+  );
+  animation: scan 4s linear infinite;
+  opacity: 0.3;
+}
+
+@keyframes scan {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Subtle Grid */
+.grid-bg {
+  background-image: 
+    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Pulse Animation */
+.pulse-dot {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.1); }
+}
+
+/* Text Glow */
+.text-glow {
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+/* Smooth Transitions */
+.smooth-transition {
+  transition: all 0.3s ease;
+}
+
+/* Hover Effects */
+.hover-glow:hover {
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+  border-color: rgba(0, 212, 255, 0.5);
+}
+
+/* Custom Scrollbar - Minimal */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.3);
+  border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 212, 255, 0.5);
+}
+
+/* Rotating Circle Animation */
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rotate-slow {
+  animation: rotate 20s linear infinite;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Slide Up Animation */
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.slide-up {
+  animation: slideUp 0.4s ease-out;
+}
+
+/* Data Stream Effect */
+.data-stream {
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+  color: var(--jarvis-blue);
+  opacity: 0.8;
+}
+
+/* Minimal Button */
+.jarvis-button {
+  background: transparent;
+  border: 1px solid var(--jarvis-blue);
+  color: var(--jarvis-blue);
+  padding: 8px 24px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.jarvis-button:hover:not(:disabled) {
+  background: rgba(0, 212, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+.jarvis-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Input Field */
+.jarvis-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+  color: var(--jarvis-blue);
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.jarvis-input::placeholder {
+  color: rgba(0, 212, 255, 0.3);
+}
+
+.jarvis-input:focus {
+  border-bottom-color: var(--jarvis-blue);
+  box-shadow: 0 1px 0 0 rgba(0, 212, 255, 0.5);
+}
+
+/* Status Indicator */
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--jarvis-blue);
+  box-shadow: 0 0 10px var(--jarvis-blue);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Circular Orbit */
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+.orbit {
+  animation: orbit 15s linear infinite;
+}
+
+/* Arc Lines */
+.arc-line {
+  stroke: var(--jarvis-blue);
+  stroke-width: 1;
+  fill: none;
+  opacity: 0.3;
+  stroke-dasharray: 5, 5;
+  animation: dash 20s linear infinite;
+}
+
+@keyframes dash {
+  to { stroke-dashoffset: -100; }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "content": "BMW hakk\u0131nda ne d\u00fc\u015f\u00fcn\u00fcyorsun",
+    "timestamp": "2026-02-28T05:21:20.642841"
+  },
+  {
+    "role": "assistant",
+    "content": "BMW certainly excels in performance and driving dynamics, particularly their M division. However, their",
+    "timestamp": "2026-02-28T05:21:23.390248"
+  },
+  {
+    "role": "user",
+    "content": "Tesla arat",
+    "timestamp": "2026-02-28T05:21:23.438334"
+  },
+  {
+    "role": "assistant",
+    "content": "Searching for tesla, sir. Opening Google search. I found 5 results.",
+    "timestamp": "2026-02-28T05:21:24.192281"
+  }
+]

@@ -1,0 +1,1452 @@
+{
+  "interactions": [
+    {
+      "timestamp": "2026-02-19T01:49:27.411255",
+      "user_input": "Open Safari and search the BMW.",
+      "jarvis_response": "Done, sir.",
+      "intent": "open_app",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T01:49:27.411312"
+    },
+    {
+      "timestamp": "2026-02-19T01:49:42.511511",
+      "user_input": "Open Safari At breathing",
+      "jarvis_response": "Done, sir.",
+      "intent": "open_app",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T01:49:42.511535"
+    },
+    {
+      "timestamp": "2026-02-19T01:50:02.899056",
+      "user_input": "Chromach VBV-ARBAZNOR",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T01:50:02.899065"
+    },
+    {
+      "timestamp": "2026-02-19T01:50:11.460705",
+      "user_input": "Open the Safari and search the BMW car.",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T01:50:11.460721"
+    },
+    {
+      "timestamp": "2026-02-19T02:13:36.035801",
+      "user_input": "Open the Safari and...",
+      "jarvis_response": "Done, sir.",
+      "intent": "open_website",
+      "tools_used": [
+        "open_url"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T02:13:36.035827"
+    },
+    {
+      "timestamp": "2026-02-19T02:13:50.180596",
+      "user_input": "Search BMW website",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T02:13:50.180614"
+    },
+    {
+      "timestamp": "2026-02-19T02:14:04.311731",
+      "user_input": "Open Safari",
+      "jarvis_response": "Opening Safari, sir.",
+      "intent": "open_app",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T02:14:04.311755"
+    },
+    {
+      "timestamp": "2026-02-19T02:14:12.892865",
+      "user_input": "and search BMW Cars.",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T02:14:12.892883"
+    },
+    {
+      "timestamp": "2026-02-19T02:14:21.672838",
+      "user_input": "thanks for watching & please like and subscribe, thanks for watching & bye bye",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:14:21.672851"
+    },
+    {
+      "timestamp": "2026-02-19T02:14:38.494692",
+      "user_input": "heravas rice third B.M.W \u5c31\u662f \u6309",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:14:38.494700"
+    },
+    {
+      "timestamp": "2026-02-19T02:14:48.201171",
+      "user_input": "BMW USA",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:14:48.201180"
+    },
+    {
+      "timestamp": "2026-02-19T02:14:58.841140",
+      "user_input": "BMW V\u3055\u0435\u0447 noktrophom",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:14:58.841148"
+    },
+    {
+      "timestamp": "2026-02-19T02:15:09.393657",
+      "user_input": "VMw. website",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:15:09.393666"
+    },
+    {
+      "timestamp": "2026-02-19T02:23:06.872041",
+      "user_input": "opundu",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:23:06.872068"
+    },
+    {
+      "timestamp": "2026-02-19T02:23:16.757173",
+      "user_input": "o p\u0131nd\u0131 safari",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:23:16.757184"
+    },
+    {
+      "timestamp": "2026-02-19T02:23:26.676575",
+      "user_input": "o p\u0131nd\u0131 safari",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:23:26.676589"
+    },
+    {
+      "timestamp": "2026-02-19T02:23:36.702138",
+      "user_input": "s\u00f3 faria de",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T02:23:36.702146"
+    },
+    {
+      "timestamp": "2026-02-19T03:05:24.957861",
+      "user_input": "\u00c7aray\u0131z, o p\u0131nd\u0131 saferi.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:05:24.957891"
+    },
+    {
+      "timestamp": "2026-02-19T03:05:41.390530",
+      "user_input": "Jarvis, Safari Edge.",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:05:41.390564"
+    },
+    {
+      "timestamp": "2026-02-19T03:05:52.285559",
+      "user_input": "Jarvis, Spotify'den slow bir m\u00fczik \u00e7al.",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:05:52.285592"
+    },
+    {
+      "timestamp": "2026-02-19T03:06:07.984619",
+      "user_input": "jarries, open the Spotify and play slow music.",
+      "jarvis_response": "Done, sir.",
+      "intent": "play_music",
+      "tools_used": [
+        "control_spotify"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T03:06:07.984657"
+    },
+    {
+      "timestamp": "2026-02-19T03:30:21.501713",
+      "user_input": "\u0648\u0645\u0646 \u0627\u0644\u0645\u062c\u0631 with the gameworld \u062e\u0627\u0635\u0629",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:30:21.501763"
+    },
+    {
+      "timestamp": "2026-02-19T03:42:37.680208",
+      "user_input": "Haz\u0131rlay\u0131n i\u00e7in\u70b9ini doluyorum operatorle basit mor Hannah pun",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:42:37.680232"
+    },
+    {
+      "timestamp": "2026-02-19T03:43:05.223093",
+      "user_input": "Jarvis sepotofeye a\u00e7.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:43:05.223120"
+    },
+    {
+      "timestamp": "2026-02-19T03:55:05.767200",
+      "user_input": "Jarvis, sputu fayet\u00e7.",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:55:05.767215"
+    },
+    {
+      "timestamp": "2026-02-19T03:55:22.516274",
+      "user_input": "Her roar WILLIAM Purple",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:55:22.516320"
+    },
+    {
+      "timestamp": "2026-02-19T03:55:30.809705",
+      "user_input": "Jarvis, supportu fayi a\u00e7.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T03:55:30.809727"
+    },
+    {
+      "timestamp": "2026-02-19T03:55:39.397723",
+      "user_input": "S\u0131portify, S\u0131portify, S\u0131portify",
+      "jarvis_response": "Opening Spotify, sir.",
+      "intent": "quick_action",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_action"
+      },
+      "stored_at": "2026-02-19T03:55:39.397757"
+    },
+    {
+      "timestamp": "2026-02-19T03:55:51.091275",
+      "user_input": "Google a\u00e7 B.M.V.A.",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast"
+      },
+      "stored_at": "2026-02-19T03:55:51.091304"
+    },
+    {
+      "timestamp": "2026-02-19T04:07:26.440896",
+      "user_input": "spotify a\u00e7",
+      "jarvis_response": "Opening Spotify, sir.",
+      "intent": "quick_action",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_action"
+      },
+      "stored_at": "2026-02-19T04:07:26.440997"
+    },
+    {
+      "timestamp": "2026-02-19T04:07:36.836079",
+      "user_input": "run terminal command ls",
+      "jarvis_response": "I'm listening. Tell me what you want to do, sir.",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:07:36.836437"
+    },
+    {
+      "timestamp": "2026-02-19T04:08:41.385714",
+      "user_input": "run terminal command ls",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "run_terminal"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:08:41.385899"
+    },
+    {
+      "timestamp": "2026-02-19T04:12:22.635903",
+      "user_input": "S\u0131b\u0131t\u0131 faya a\u00e7ar m\u0131s\u0131n?",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:12:22.635961"
+    },
+    {
+      "timestamp": "2026-02-19T04:12:32.629438",
+      "user_input": "S\u0131portify H.",
+      "jarvis_response": "Opening Spotify, sir.",
+      "intent": "quick_action",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_action"
+      },
+      "stored_at": "2026-02-19T04:12:32.629479"
+    },
+    {
+      "timestamp": "2026-02-19T04:12:46.593527",
+      "user_input": "safariye gir ve bmvenin skezine bak.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:12:46.593572"
+    },
+    {
+      "timestamp": "2026-02-19T04:12:56.834118",
+      "user_input": "Safari Yat",
+      "jarvis_response": "Opening Safari, sir.",
+      "intent": "quick_action",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_action"
+      },
+      "stored_at": "2026-02-19T04:12:56.834146"
+    },
+    {
+      "timestamp": "2026-02-19T04:13:09.633644",
+      "user_input": "\u015eimdi BME ve arabalar\u0131na a\u00e7.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:13:09.633669"
+    },
+    {
+      "timestamp": "2026-02-19T04:13:21.602678",
+      "user_input": "\u015eimdi BMW.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:13:21.602713"
+    },
+    {
+      "timestamp": "2026-02-19T04:13:34.393945",
+      "user_input": "BMW arat ve ilk siteye gir.",
+      "jarvis_response": "Opening bmw.com, sir.",
+      "intent": "open_website",
+      "tools_used": [
+        "open_url"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_site"
+      },
+      "stored_at": "2026-02-19T04:13:34.393967"
+    },
+    {
+      "timestamp": "2026-02-19T04:13:54.645338",
+      "user_input": "Safariya\u00e7 ve sahibinden nokta kuma gir.",
+      "jarvis_response": "Opening Safari, sir.",
+      "intent": "quick_action",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_action"
+      },
+      "stored_at": "2026-02-19T04:13:54.645355"
+    },
+    {
+      "timestamp": "2026-02-19T04:14:03.014755",
+      "user_input": "\u015eimdi sahibinden noktak kuma gir.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:14:03.014805"
+    },
+    {
+      "timestamp": "2026-02-19T04:14:11.727092",
+      "user_input": "Sahibinden arad\u0131.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:14:11.727117"
+    },
+    {
+      "timestamp": "2026-02-19T04:14:19.167068",
+      "user_input": "ilk citegir.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:14:19.167102"
+    },
+    {
+      "timestamp": "2026-02-19T04:15:22.502754",
+      "user_input": "sahibinden ilk istesine gir.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:15:22.502805"
+    },
+    {
+      "timestamp": "2026-02-19T04:15:35.386713",
+      "user_input": "sahibinden arat ve ilk siteye gir.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:15:35.386768"
+    },
+    {
+      "timestamp": "2026-02-19T04:15:46.248493",
+      "user_input": "\u015eimdi siteye giri\u015f yap.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:15:46.248526"
+    },
+    {
+      "timestamp": "2026-02-19T04:22:51.435698",
+      "user_input": "sahibinden arat ve ilk siteye gir",
+      "jarvis_response": "I could not complete that task, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:22:51.435933"
+    },
+    {
+      "timestamp": "2026-02-19T04:23:39.441505",
+      "user_input": "sahibinden arat ve ilk siteye gir",
+      "jarvis_response": "I could not complete that task, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:23:39.441782"
+    },
+    {
+      "timestamp": "2026-02-19T04:24:28.064664",
+      "user_input": "sahibinden arat ve ilk siteye gir",
+      "jarvis_response": "Ilk sonuca giderken sorun oldu, sir.",
+      "intent": "navigation_followup",
+      "tools_used": [
+        "open_first_search_result"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "followup"
+      },
+      "stored_at": "2026-02-19T04:24:28.064936"
+    },
+    {
+      "timestamp": "2026-02-19T04:24:41.403203",
+      "user_input": "\u015fimdi siteye giri\u015f yap",
+      "jarvis_response": "Giris sayfasina gidemedim, sir.",
+      "intent": "navigation_followup",
+      "tools_used": [
+        "open_login_page"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "followup"
+      },
+      "stored_at": "2026-02-19T04:24:41.403481"
+    },
+    {
+      "timestamp": "2026-02-19T04:30:25.432462",
+      "user_input": "\u0130nte safariyat ve B.M.E.V.A.R.T.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:30:25.432524"
+    },
+    {
+      "timestamp": "2026-02-19T04:30:36.505177",
+      "user_input": "Sofa reacc...",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:30:36.505237"
+    },
+    {
+      "timestamp": "2026-02-19T04:30:49.300118",
+      "user_input": "Sanca yold\ufffd\u0131, V, BmV arat\u0131.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:30:49.300141"
+    },
+    {
+      "timestamp": "2026-02-19T04:30:59.609333",
+      "user_input": "Tengir.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T04:30:59.609393"
+    },
+    {
+      "timestamp": "2026-02-19T17:33:37.345729",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:33:37.345781"
+    },
+    {
+      "timestamp": "2026-02-19T17:33:47.217794",
+      "user_input": "Evet.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:33:47.217826"
+    },
+    {
+      "timestamp": "2026-02-19T17:44:11.941982",
+      "user_input": "Evet.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:44:11.942034"
+    },
+    {
+      "timestamp": "2026-02-19T17:44:17.762900",
+      "user_input": "abone ol",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:44:17.762929"
+    },
+    {
+      "timestamp": "2026-02-19T17:44:23.776469",
+      "user_input": "Evet.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:44:23.776510"
+    },
+    {
+      "timestamp": "2026-02-19T17:48:13.769464",
+      "user_input": "Evet.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:48:13.769507"
+    },
+    {
+      "timestamp": "2026-02-19T17:49:59.749650",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:49:59.749707"
+    },
+    {
+      "timestamp": "2026-02-19T17:57:57.247404",
+      "user_input": "Ben baban\u0131z\u0131 bekledim sana.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T17:57:57.247489"
+    },
+    {
+      "timestamp": "2026-02-19T17:59:17.856622",
+      "user_input": "Safari H",
+      "jarvis_response": "Opening Safari, sir.",
+      "intent": "quick_action",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_action"
+      },
+      "stored_at": "2026-02-19T17:59:17.856641"
+    },
+    {
+      "timestamp": "2026-02-19T18:03:51.172701",
+      "user_input": "Safari'i a\u00e7, sahibinden arat.",
+      "jarvis_response": "Opening Safari, sir.",
+      "intent": "quick_action",
+      "tools_used": [
+        "open_application"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_action"
+      },
+      "stored_at": "2026-02-19T18:03:51.172724"
+    },
+    {
+      "timestamp": "2026-02-19T18:03:58.820235",
+      "user_input": "Yaz\u0131n sana zaten bir ay istiyorlar.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:03:58.820290"
+    },
+    {
+      "timestamp": "2026-02-19T18:04:15.332205",
+      "user_input": "O\u011flum \u00f6yle olmaz. Sahibinden arat. Yahu ba\u011f\u0131rmay\u0131n ya.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:04:15.332235"
+    },
+    {
+      "timestamp": "2026-02-19T18:04:33.537018",
+      "user_input": "Vallahi bak dalaca\u011f\u0131m size \u015fimdi.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:04:33.537074"
+    },
+    {
+      "timestamp": "2026-02-19T18:04:43.310208",
+      "user_input": "sahibinden arat.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:04:43.310235"
+    },
+    {
+      "timestamp": "2026-02-19T18:04:53.130283",
+      "user_input": "\u0130lk siteye gir \u015fimdi.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:04:53.130334"
+    },
+    {
+      "timestamp": "2026-02-19T18:04:59.188158",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:04:59.188174"
+    },
+    {
+      "timestamp": "2026-02-19T18:11:50.488060",
+      "user_input": "Sahibinden arat.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:11:50.488081"
+    },
+    {
+      "timestamp": "2026-02-19T18:11:57.819240",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:11:57.819269"
+    },
+    {
+      "timestamp": "2026-02-19T18:12:04.034523",
+      "user_input": "\u0130lk siteye gir \u015fimdi.",
+      "jarvis_response": "Ilk sonuca girdim, sir.",
+      "intent": "navigation_followup",
+      "tools_used": [
+        "open_first_search_result"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "followup"
+      },
+      "stored_at": "2026-02-19T18:12:04.034541"
+    },
+    {
+      "timestamp": "2026-02-19T18:12:10.873001",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:12:10.873014"
+    },
+    {
+      "timestamp": "2026-02-19T18:12:19.328071",
+      "user_input": "\u015eimdi sahibinde ne? Giri\u015f yap.",
+      "jarvis_response": "Giris sayfasini aciyorum, sir.",
+      "intent": "navigation_followup",
+      "tools_used": [
+        "open_login_page"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "followup"
+      },
+      "stored_at": "2026-02-19T18:12:19.328098"
+    },
+    {
+      "timestamp": "2026-02-19T18:15:13.724396",
+      "user_input": "BMW Arad.",
+      "jarvis_response": "Opening bmw.com, sir.",
+      "intent": "open_website",
+      "tools_used": [
+        "open_url"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_site"
+      },
+      "stored_at": "2026-02-19T18:15:13.724427"
+    },
+    {
+      "timestamp": "2026-02-19T18:15:24.735908",
+      "user_input": "abone ol",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:15:24.735989"
+    },
+    {
+      "timestamp": "2026-02-19T18:15:37.903719",
+      "user_input": "BMW M Sport ara\u00e7lar\u0131 ara.",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:15:37.903750"
+    },
+    {
+      "timestamp": "2026-02-19T18:15:43.656592",
+      "user_input": "abone ol",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:15:43.656646"
+    },
+    {
+      "timestamp": "2026-02-19T18:15:54.221943",
+      "user_input": "\u0130lk siteye giri\u015f yap.",
+      "jarvis_response": "Ilk sonuca girdim, sir.",
+      "intent": "navigation_followup",
+      "tools_used": [
+        "open_first_search_result"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "followup"
+      },
+      "stored_at": "2026-02-19T18:15:54.221966"
+    },
+    {
+      "timestamp": "2026-02-19T18:16:00.820210",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:16:00.820257"
+    },
+    {
+      "timestamp": "2026-02-19T18:16:08.515858",
+      "user_input": "Evet.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:16:08.515908"
+    },
+    {
+      "timestamp": "2026-02-19T18:16:14.769470",
+      "user_input": "abone ol",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:16:14.769528"
+    },
+    {
+      "timestamp": "2026-02-19T18:16:24.517577",
+      "user_input": "\u00c7\u0131kan ilk siteye giri\u015f yap.",
+      "jarvis_response": "Ilk sonuca girdim, sir.",
+      "intent": "navigation_followup",
+      "tools_used": [
+        "open_first_search_result"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "followup"
+      },
+      "stored_at": "2026-02-19T18:16:24.517699"
+    },
+    {
+      "timestamp": "2026-02-19T18:22:35.858094",
+      "user_input": "BMW sitesini arat.",
+      "jarvis_response": "Opening bmw.com, sir.",
+      "intent": "open_website",
+      "tools_used": [
+        "open_url"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_site"
+      },
+      "stored_at": "2026-02-19T18:22:35.858124"
+    },
+    {
+      "timestamp": "2026-02-19T18:22:45.344809",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:22:45.344871"
+    },
+    {
+      "timestamp": "2026-02-19T18:22:56.963318",
+      "user_input": "Port sekmesine gir.",
+      "jarvis_response": "I could not complete that task, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "click_link_on_page"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:22:56.963345"
+    },
+    {
+      "timestamp": "2026-02-19T18:23:10.254160",
+      "user_input": "Buradan BMW M Motorsport sekmesine gir.",
+      "jarvis_response": "I could not complete that task, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "click_link_on_page"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:23:10.254187"
+    },
+    {
+      "timestamp": "2026-02-19T18:23:20.971055",
+      "user_input": "Ne yapay\u0131m?",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:23:20.971080"
+    },
+    {
+      "timestamp": "2026-02-19T18:23:33.794960",
+      "user_input": "Yapm\u0131yor musun? Bir yan WM Motorsport sekmesine t\u0131kla.",
+      "jarvis_response": "I could not complete that task, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "click_link_on_page"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:23:33.794981"
+    },
+    {
+      "timestamp": "2026-02-19T18:23:41.507283",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:23:41.507317"
+    },
+    {
+      "timestamp": "2026-02-19T18:23:53.661191",
+      "user_input": "BMW M Motorsport sekmesine t\u0131kla.",
+      "jarvis_response": "I could not complete that task, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "click_link_on_page"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:23:53.661211"
+    },
+    {
+      "timestamp": "2026-02-19T18:24:01.410298",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:24:01.410325"
+    },
+    {
+      "timestamp": "2026-02-19T18:26:52.857642",
+      "user_input": "BMW sitesine git.",
+      "jarvis_response": "Opening bmw.com, sir.",
+      "intent": "open_website",
+      "tools_used": [
+        "open_url"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_site"
+      },
+      "stored_at": "2026-02-19T18:26:52.857674"
+    },
+    {
+      "timestamp": "2026-02-19T18:27:05.146064",
+      "user_input": "BMW M Motorsport sekmesini a\u00e7.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:27:05.146084"
+    },
+    {
+      "timestamp": "2026-02-19T18:27:20.884176",
+      "user_input": "BMW M Motorsport sekmesine gir.",
+      "jarvis_response": "I could not complete that task, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "click_link_on_page"
+      ],
+      "success": false,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:27:20.884200"
+    },
+    {
+      "timestamp": "2026-02-19T18:27:26.583379",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:27:26.583420"
+    },
+    {
+      "timestamp": "2026-02-19T18:27:46.729593",
+      "user_input": "spread",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:27:46.729656"
+    },
+    {
+      "timestamp": "2026-02-19T18:28:02.108026",
+      "user_input": "BMW a\u00e7t\u0131\u011f\u0131n site de arama butonuna 520 yaz.",
+      "jarvis_response": "Opening bmw.com, sir.",
+      "intent": "open_website",
+      "tools_used": [
+        "open_url"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "quick_site"
+      },
+      "stored_at": "2026-02-19T18:28:02.108050"
+    },
+    {
+      "timestamp": "2026-02-19T18:28:13.089451",
+      "user_input": "Altyaz\u0131 M.K.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:28:13.089496"
+    },
+    {
+      "timestamp": "2026-02-19T18:28:19.100854",
+      "user_input": "Evet.",
+      "jarvis_response": "Anladim. Ne yapmami istedigini daha net soyler misin?",
+      "intent": "complex",
+      "tools_used": [],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:28:19.100898"
+    },
+    {
+      "timestamp": "2026-02-19T18:28:27.853551",
+      "user_input": "A\u00e7t\u0131\u011f\u0131n\u0131z dedik arama motoruna",
+      "jarvis_response": "Task completed, sir.",
+      "intent": "complex",
+      "tools_used": [
+        "search_web_results"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "smart"
+      },
+      "stored_at": "2026-02-19T18:28:27.853582"
+    },
+    {
+      "timestamp": "2026-02-27T01:08:29.461373",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:08:29.609210"
+    },
+    {
+      "timestamp": "2026-02-27T01:11:14.341027",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:11:14.341085"
+    },
+    {
+      "timestamp": "2026-02-27T01:11:50.943485",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:11:50.943549"
+    },
+    {
+      "timestamp": "2026-02-27T01:18:00.887264",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:18:00.887331"
+    },
+    {
+      "timestamp": "2026-02-27T01:36:52.218114",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:36:52.218175"
+    },
+    {
+      "timestamp": "2026-02-27T01:38:52.098205",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:38:52.098414"
+    },
+    {
+      "timestamp": "2026-02-27T01:49:10.732983",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:49:10.733046"
+    },
+    {
+      "timestamp": "2026-02-27T01:56:22.286939",
+      "user_input": "bmw'de ara",
+      "jarvis_response": "Done, sir.",
+      "intent": "web_search",
+      "tools_used": [
+        "web_search"
+      ],
+      "success": true,
+      "metadata": {
+        "path": "fast",
+        "reflection": {},
+        "plan": {}
+      },
+      "stored_at": "2026-02-27T01:56:22.286999"
+    }
+  ],
+  "facts": {},
+  "preferences": {}
+}

@@ -1,0 +1,483 @@
+[
+  {
+    "id": "goal_1772409504418",
+    "timestamp": 1772409504.4185522,
+    "trigger": "cpu_high",
+    "trigger_data": {
+      "cpu_percent": 85,
+      "threshold": 80
+    },
+    "goal_description": "Optimize CPU usage",
+    "reasoning": "CPU usage is high, system may be slow",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_optimization",
+        "target": "cpu"
+      }
+    ],
+    "priority": "medium",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772409504418",
+    "timestamp": 1772409504.418886,
+    "trigger": "memory_critical",
+    "trigger_data": {
+      "memory_percent": 95,
+      "available_gb": 0.5
+    },
+    "goal_description": "Emergency memory cleanup",
+    "reasoning": "Memory critically low, immediate action needed",
+    "actions": [
+      {
+        "action": "close_unused_apps",
+        "target": null
+      },
+      {
+        "action": "clear_cache",
+        "target": null
+      }
+    ],
+    "priority": "critical",
+    "status": "completed",
+    "risk_level": "low",
+    "requires_approval": true,
+    "approved_by": "user",
+    "approved_at": 1772409504.4191449,
+    "completed_at": 1772409504.4193769,
+    "result": {
+      "success": true,
+      "freed_memory_gb": 2.5
+    }
+  },
+  {
+    "id": "goal_1772409504419",
+    "timestamp": 1772409504.419014,
+    "trigger": "new_project_folder",
+    "trigger_data": {
+      "path": "/Users/user/projects/new_app"
+    },
+    "goal_description": "Setup project workflow",
+    "reasoning": "New project folder detected, offer setup assistance",
+    "actions": [
+      {
+        "action": "suggest_git_init",
+        "target": null
+      },
+      {
+        "action": "suggest_venv_setup",
+        "target": null
+      }
+    ],
+    "priority": "low",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772422478489",
+    "timestamp": 1772422478.489063,
+    "trigger": "cpu_high",
+    "trigger_data": {
+      "cpu_percent": 81.0
+    },
+    "goal_description": "Optimize CPU usage",
+    "reasoning": "CPU usage is high, system may be slow",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_optimization",
+        "target": "cpu"
+      }
+    ],
+    "priority": "medium",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772497477000",
+    "timestamp": 1772497477.000306,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 80.2
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772498069531",
+    "timestamp": 1772498069.531979,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 78.5
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772498379490",
+    "timestamp": 1772498379.4905589,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 79.7
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772498680008",
+    "timestamp": 1772498680.0087512,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 78.3
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772499089667",
+    "timestamp": 1772499089.667673,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 78.9
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772500138834",
+    "timestamp": 1772500138.8346272,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 78.6
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772500574797",
+    "timestamp": 1772500574.79772,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 80.6
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1772576597450",
+    "timestamp": 1772576597.4503412,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 86.0
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1774393364915",
+    "timestamp": 1774393364.915512,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 88.8
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1774393872755",
+    "timestamp": 1774393872.755627,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 82.5
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1774394266445",
+    "timestamp": 1774394266.445025,
+    "trigger": "cpu_high",
+    "trigger_data": {
+      "cpu_percent": 97.8
+    },
+    "goal_description": "Optimize CPU usage",
+    "reasoning": "CPU usage is high, system may be slow",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_optimization",
+        "target": "cpu"
+      }
+    ],
+    "priority": "medium",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1774394798387",
+    "timestamp": 1774394798.387326,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 82.9
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "id": "goal_1774399551019",
+    "timestamp": 1774399551.019858,
+    "trigger": "memory_high",
+    "trigger_data": {
+      "memory_percent": 75.9
+    },
+    "goal_description": "Free up memory",
+    "reasoning": "Memory usage is high, may cause slowdowns",
+    "actions": [
+      {
+        "action": "get_system_info",
+        "target": null
+      },
+      {
+        "action": "suggest_cleanup",
+        "target": "memory"
+      }
+    ],
+    "priority": "high",
+    "status": "approved",
+    "risk_level": "low",
+    "requires_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "completed_at": null,
+    "result": null
+  }
+]

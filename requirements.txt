@@ -1,0 +1,5 @@
+# Offline Jarvis
+requests     # Ollama API
+vosk         # Offline STT (Türkçe)
+sounddevice  # Mikrofon (macOS'ta ek kurulum gerektirmez; PyAudio yerine)
+numpy        # sounddevice + listen_until_silence için
